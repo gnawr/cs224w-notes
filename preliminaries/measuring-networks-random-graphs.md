@@ -13,7 +13,7 @@ The **degree distribution** $$P(k)$$ measures the probability that a randomly ch
 
 We can compute the degree distribution of a graph by $$P(k) = N_k / N$$. Here, $$N_k$$ is the number of nodes with degree $$k$$ and $$N$$ is the number of nodes. One can think of degree distribution as the probability that a randomly chosen node has degree $$k$$.
 
-To extend these definitions to a directed graph, compute separately both in-degree and out-degre distribution.
+To extend these definitions to a directed graph, compute separately both in-degree and out-degree distribution.
 
 ### Paths in a Graph
 A **path** is a sequence of nodes in which each node is linked to the next one:
