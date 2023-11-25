@@ -104,7 +104,7 @@ $$
 where $$\bar k$$ is the average degree. From this, we can see that the clustering coefficient of $$G_{np}$$ is very small. If we generate bigger and bigger graphs with fixed average degree $$\bar k$$, then $$C$$ decreases with graph size $$n$$. $$\mathbb{E}[C_i] \to 0$$ as $$n \to \infty$$.
 
 ### The Path Length of $$G_{np}$$
-To discuss the path length of $$G_{np}$$, we fist introduce the concept of **expansion.** Graph $$G(V, E)$$ has expansion $$\alpha$$ if $$\forall S \subset V$$, the number of edges leaving $$S \geq \alpha \cdot \min (|S|, | V \setminus S|)$$. Expansion answers the question ''if we pick a random set of nodes, how many edges are going to leave the set?'' Expansion is a measure of robustness: to disconnect $$\ell$$ nodes, one must cut $$\geq \alpha \cdot \ell$$ edges.
+To discuss the path length of $$G_{np}$$, we first introduce the concept of **expansion.** Graph $$G(V, E)$$ has expansion $$\alpha$$ if $$\forall S \subset V$$, the number of edges leaving $$S \geq \alpha \cdot \min (|S|, | V \setminus S|)$$. Expansion answers the question ''if we pick a random set of nodes, how many edges are going to leave the set?'' Expansion is a measure of robustness: to disconnect $$\ell$$ nodes, one must cut $$\geq \alpha \cdot \ell$$ edges.
 
 Equivalently, we can say a graph $$G(V,E)$$ has an expansion $$\alpha$$ such that
 
