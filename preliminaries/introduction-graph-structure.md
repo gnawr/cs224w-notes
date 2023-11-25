@@ -29,13 +29,13 @@ A network/graph{% include sidenote.html id='note-graphnetwork' note='Technically
 
 *Undirected* graphs have symmetrical/reciprocal links (e.g. friendship on Facebook). We define the node degree $$k_i$$ of node $$i$$ in an undirected graph as the number of edges adjacent to node $$i$$. The average degree is then
 
-$$\bar{k} = \langle k \rangle = \frac{1}{\vert N \vert} \sum_{i=1}^{\vert N \vert} k_i = \frac{2 \vert E \vert}{N}$$
+$$\bar{k} = \langle k \rangle = \frac{1}{\vert N \vert} \sum_{i=1}^{\vert N \vert} k_i = \frac{2 \vert E \vert}{\vert N \vert}$$
 
 *Directed* graphs have directed links (e.g. following on Twitter). We define the in-degree $$k^{in}_i$$ as the number of edges entering node $$i$$. Similarly, we define the out-degree $$k^{out}_i$$ as the number of edges leaving node $$i$$. The average degree is then
 
-$$\bar{k} = \langle k \rangle = \frac{\vert E \vert}{N}$$
+$$\bar{k} = \langle k \rangle = \frac{\vert E \vert}{\vert N \vert}$$
 
-**Complete Graphs.** An undirected graph with the maximum number of edges (such that all pairs of nodes are connected) is called the complete graph. The complete graph has $$\vert E\vert = \binom{N}{2} = \frac{N(N-1)}{2}$$ and average degree $$\vert N\vert-1$$.
+**Complete Graphs.** An undirected graph with the maximum number of edges (such that all pairs of nodes are connected) is called the complete graph. The complete graph has $$\vert E\vert = \binom{\vert N \vert}{2} = \frac{\vert N \vert(\vert N \vert-1)}{2}$$ and average degree $$\vert N\vert-1$$.
 
 **Bipartite Graphs.** A bipartite graph is a graph whose nodes can be divided into two disjoint sets $$U$$ and $$V$$ such that every edge connects a node in $$U$$ to a node in $$V$${% include sidenote.html id='note-graphnetwork' note='That is, there are no edges between nodes in $$U$$ and between nodes in $$V$$. We call $$U$$ and $$V$$ independent sets.'%}. We can ''fold'' bipartite graphs by creating edges within independent sets $$U$$ or $$V$$ if they share at least one common neighbor.
 
