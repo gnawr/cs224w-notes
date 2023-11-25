@@ -24,7 +24,7 @@ $$
 
 such that $$\{(i_0, i_1), (i_1, i_2), (i_2, i_3), \dots, (i_{n-1}, i_n)\} \in E$$
 
-The **distance (shortest path, geodesic)** between a pair of nodes is defined as the number of edges along the shortest path connecting the nodes. If two nodes are not connected, the distance is usually defined as infinite (or zero). One can also think of distance as the smallest number of nodes needed to traverse to get form one node to another. 
+The **distance (shortest path, geodesic)** between a pair of nodes is defined as the number of edges along the shortest path connecting the nodes. If two nodes are not connected, the distance is usually defined as infinite (or zero). One can also think of distance as the smallest number of nodes needed to traverse to get from one node to another. 
 
 In a directed graph, paths need to follow the direction of the arrows. Thus, distance is not symmetric for directed graphs. For a graph with weighted edges, the distance is the minimum number of edge weight needed to traverse to get from one node to another.
 
