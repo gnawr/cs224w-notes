@@ -82,7 +82,7 @@ $$
 P(k) = \binom{n-1}{k} p^k (1-p)^{n-1-k}
 $$
 
-The mean and variance of a binomial distribution respectively are $$\bar k = p(n-1)$$ and $$\sigma^2 = p(1-p)(n-1)$$. Below we include an image of binomial distributions for different paramters. Note that a binomial distribution is a discrete analogue of a Gaussian and has a bell-shape.
+The mean and variance of a binomial distribution respectively are $$\bar k = p(n-1)$$ and $$\sigma^2 = p(1-p)(n-1)$$. Below we include an image of binomial distributions for different parameters. Note that a binomial distribution is a discrete analogue of a Gaussian and has a bell-shape.
 
 ![binom-dist](../assets/img/binom_dist_graph.png?style=centerme)
 
