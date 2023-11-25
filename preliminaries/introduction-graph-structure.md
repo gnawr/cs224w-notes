@@ -47,7 +47,7 @@ $$\bar{k} = \langle k \rangle = \frac{\vert E \vert}{\vert N \vert}$$
 
 ## Representing Graphs
 
-We can represent graph $$G$$ as **adjacency matrix** $$A$$ such that $$A_{ij} = 1$$ if $$i$$ and $$j$$ are linked (and $$A_{ij} = 0$$ otherwise). Note that $$A$$ is asymmetric for directed graphs. For example, a graph with a 3-clique on nodes 1, 2, and 3 and an additional edge from node 3 to 4 can be represented as
+We can represent graph $$G$$ as **adjacency matrix** $$A$$ such that $$A_{ij} = 1$$ if $$i$$ and $$j$$ are linked (and $$A_{ij} = 0$$ otherwise). Note that $$A$$ is asymmetric for directed graphs. For example, a graph with a 3-clique on nodes 1, 2, and 4 and an additional edge from node 3 to 4 can be represented as
 
 $$
 A = \begin{bmatrix} 0 & 1 & 0 & 1 \\ 1 & 0 & 0 & 1 \\ 0 & 0 & 0 & 1 \\ 1 & 1 & 1 & 0 \end{bmatrix}
