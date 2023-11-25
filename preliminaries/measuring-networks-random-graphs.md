@@ -86,7 +86,7 @@ The mean and variance of a binomial distribution respectively are $$\bar k = p(n
 
 ![binom-dist](../assets/img/binom_dist_graph.png?style=centerme)
 
-One property of binomial distributions is that by the law of numbers, as the network size increases, the distribution becomes increasingly narrow. Thus, we are increasingly confidence that the degree of a ndoe is in the vicinity of $$k$$. If the graph has an infinite number of nodes, all nodes will have the same degree.
+One property of binomial distributions is that by the law of numbers, as the network size increases, the distribution becomes increasingly narrow. Thus, we are increasingly confidence that the degree of a node is in the vicinity of $$k$$. If the graph has an infinite number of nodes, all nodes will have the same degree.
 
 ### The Clustering Coefficient of $$G_{np}$$
 Recall that the clustering coefficient is computed as $$C_i = 2 \frac{e_i} {k_i (k_i -1)}$$ where $$e_i$$ is the number of edges between $$i$$'s neighbors. Edges in $$G_{np}$$ appear IID with probability $$p$$, so the expected $$e_i$$ for $$G_{np}$$ is
