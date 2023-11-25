@@ -60,7 +60,7 @@ The **connectivity** of a graph measures the size of the largest connected compo
 To find connected components:
 1. Start from a random node and perform breadth first search (BFS)
 2. Label the nodes that BFS visits
-3. If all the nodes are visited, the netowrk is connected
+3. If all the nodes are visited, the network is connected
 4. Otherwise find an unvisited node and repeat BFS
 
 
